@@ -82,3 +82,52 @@ form button {
     object-fit: cover;
     border-radius: 5px;
 }
+
+
+/* Media query */
+
+
+/* Media query for phones */
+
+@media (max-width: 767px) {
+    h1 {
+        padding: 0 0 0 55px;
+        text-align: center;
+        font-weight: 600;
+    }
+    form {
+        width: 50%;
+        max-width: 240px;
+        margin: 0 0 0 30px;
+        height: 80px;
+        background: #433989;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+    }
+    form input {
+        flex: 1;
+        height: 70%;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        color: #fff;
+        font-size: 18px;
+        padding: 0 0 0 10px;
+    }
+    form button {
+        padding: 0 15px 0 15px;
+    }
+    #search-result {
+        margin: 35px 37px 25px 42px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+    }
+    #search-result img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}
